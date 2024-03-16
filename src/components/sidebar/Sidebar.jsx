@@ -24,7 +24,7 @@ const Sidebar = () => {
             <Assignment /> <span>Task</span>
           </li>
         </NavLink>
-        <NavLink to='/logs'>
+        <NavLink to=''>
           <li className="px-4 text-gray-600 text-lg flex items-center gap-2 py-4 hover:bg-[#f4f3f3] transition duration-300">
             <Assessment /> <span>Logs</span>
           </li>
@@ -39,7 +39,7 @@ const Sidebar = () => {
           <Chalet /> <span>Leave</span>
         </li>
         </NavLink>
-        <NavLink to='/setting'>
+        <NavLink to=''>
         <li className="px-4 text-gray-600 text-lg flex items-center gap-2 py-4 hover:bg-[#f4f3f3] transition duration-300">
           <Settings /> <span>Setting</span>
         </li>

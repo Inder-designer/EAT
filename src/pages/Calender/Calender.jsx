@@ -33,7 +33,7 @@ const Calendar = () => {
   
     const calendarArray = [];
   
-    // Add empty slots for days before the month starts
+    // Add empty slots for days before the month start
     for (let i = 0; i < monthStartDay; i++) {
       const prevMonthDay = new Date(
         today.getFullYear(),
