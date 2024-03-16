@@ -9,6 +9,7 @@ import Task from '../pages/task/Task';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Leave from '../pages/leave/Leave';
+import ErrorPage from './ErrorPage';
 const Layout = () => {
   const AppWrapper = () => {
     const navigate = useNavigate();
@@ -56,6 +57,7 @@ const Layout = () => {
     {
       path: "/",
         element: <AppWrapper />,
+        errorElement: <ErrorPage/>,
       children: [
         {
           path: "/attendance",
