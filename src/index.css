@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.holiday {
+    background-color: #f8f8f8; /* Set your desired background color for holidays */
+    color: #888; /* Set your desired text color for holidays */
+  }
+
+.sideMenu .active li{
+  background-color: #f4f3f3;
+  border-right: 4px solid rgb(0, 155, 238);
+}
